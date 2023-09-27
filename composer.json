@@ -1,0 +1,21 @@
+{
+    "name": "soul-plus/posts",
+    "description": "Package description",
+    "type": "library",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Soulplus\\Posts\\": "src"
+        }
+    },
+    "require": {
+        "php": "^8.1"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Soulplus\\Posts\\Providers\\PostsServiceProvider"
+            ]
+        }
+    }
+}
